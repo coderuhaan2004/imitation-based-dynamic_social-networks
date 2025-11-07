@@ -1,6 +1,6 @@
 import numpy as np
-from simulation_params import SimulationParams, NetworkState
-from graph_init import *
+from src.simulation_params import SimulationParams, NetworkState
+from src.graph_init import *
 
 # ============================================================================
 # BEHAVIORAL MODELS

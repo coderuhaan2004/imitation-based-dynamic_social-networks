@@ -5,7 +5,7 @@ from typing import Tuple, List, Dict, Callable, Optional
 from dataclasses import dataclass
 import seaborn as sns
 from matplotlib.colors import ListedColormap
-from simulation_params import NetworkState
+from src.simulation_params import NetworkState
 
 def initialize_erdos_renyi(state: NetworkState, p: float = 0.2):
     """Initialize network with Erdős-Rényi model"""
