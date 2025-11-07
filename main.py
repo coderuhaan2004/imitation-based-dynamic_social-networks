@@ -5,10 +5,10 @@ from typing import Tuple, List, Dict, Callable, Optional
 from dataclasses import dataclass
 import seaborn as sns
 from matplotlib.colors import ListedColormap
-from simulation_params import SimulationParams, SimulationLogger, NetworkState
-from graph_init import *
-from partner_update import *
-from strategy_update import *
+from src.simulation_params import SimulationParams, SimulationLogger, NetworkState
+from src.graph_init import *
+from src.partner_update import *
+from src.strategy_update import *
 
 # ============================================================================
 # SIMULATION FUNCTIONS
